@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+justify-content: space-between;
+  background-color: #454545;
+  width: max-content;
+  align-items:right;
+}
+
+.bannerPrincipal{
+    height: 100px;
+}
+
+.titleCards{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card{
+    width:25%;
+    padding:5%
+}
+
+.subtitledA{
+    background-color:orange;
+    font-size:small;
+    text-align: center;
+    width: 70px;
+    font-weight: 700;
+    color:black;
+    width: 70px;
+    padding:2px 4px;
+    border: radius 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+.subtitledBa{
+    background-color:cadetblue;
+    font-size:small;
+    color:white;
+    text-align: center;
+    width: 70px;
+    padding:2px 4px;
+    border: radius 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+
+.subtitledB{
+    background-color:orange;
+    font-size:small;
+    font-weight: 700;
+    color:black;
+    width: 70px;
+    padding:2px 4px;
+    border: radius 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+.subtitledBb{
+    background-color:cadetblue;
+    font-size:small;
+    color:white;
+    width: 70px;
+    padding:2px 4px;
+    border: radius 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+
+.subtitledC{
+    background-color:grey;
+    font-size:small;
+    color:white;
+    width: 70px;
+    padding:2px 4px;
+    border: radius 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+.subtitledBc{
+    background-color:red;
+    font-size:small;
+    color:white;
+    width: 70px;
+    padding:2px 4px;
+    border: radius 3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;  ;
+
+}
+
+
+
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div{
+    width: 100%;
+    display: flex;
+}
+
+form>div>input{
+    padding: 4px;
+    width: 100%;
+}
+
+.pequenioTexto{
+    box-sizing: border-box;
+    ´padding: 4px;
+     width: 100%;
+}
+
+form>textarea{
+    box-sizing: border-box;
+   ´padding: 4px;
+    width: 100%;
+}
+ 
+form>button {
+width: 100%;
+
+color: white;
+background-color: green;
+border: none;
+}
+
+
+footer>ul {
+    list-style: none;
+    display: flex;
+    padding: 20px:
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(29,57,108);
+    background: linear-gradient(90deg, rgba(29,57,108,1) 6%, rgba(23,63,116,1) 14%, rgba(19,59,106,1) 35%, rgba(50,78,117,1) 41%, rgba(69,103,175,1) 60%, rgba(36,71,108,1) 100%);
+}
+
+footer>ul>li{
+        list-style-tipe: none;
+        width: 10%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
